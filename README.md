@@ -93,9 +93,4 @@ This repository contains the data and code pack for the paper _"Using Computer V
 | `subclass_no_unq_atty`         | Unique attorneys in subclass-year |
 | `subclass`                     | Unique subclass identifier |
 
----
 
-Let me know if you'd like me to add:
-- GitHub badges (e.g., license, repo size, citation),
-- Links to datasets or code documentation,
-- Or convert this to LaTeX if needed for submission packaging.
