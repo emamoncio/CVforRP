@@ -132,8 +132,8 @@ eststo: ppmlhdfe subclass_litigation_count c.dssd_5##c.dssd_5 subclass_no_unq_de
     absorb(subclass) cluster(subclass)
 
 * Export regression results
-esttab using 14Feb2025_USDC_Litigation.rtf, replace stats(N r2 ar2, fmt(2)) ///
-    cells(b(star fmt(2)) se(par fmt(2))) starlevels(* 0.10 ** 0.05 *** 0.01) nogap
+esttab using USDC_Litigation.rtf, replace stats(N r2 ar2, fmt(3)) ///
+    cells(b(star fmt(3)) se(par fmt(3))) starlevels(* 0.10 ** 0.05 *** 0.01) nogap
 
 * Summary stats of estimation sample
 asdoc su if e(sample)==1, replace
@@ -163,8 +163,8 @@ eststo: ppmlhdfe subclass_litigation_count c.dssd_5##c.dssd_5 ///
     absorb(subclass year) cluster(subclass)
 
 * Export results
-esttab using 14Feb2025_USDC_Litigation_Robust.rtf, replace stats(N r2 ar2, fmt(2)) ///
-    cells(b(star fmt(2)) se(par fmt(2))) starlevels(* 0.10 ** 0.05 *** 0.01) nogap
+esttab using USDC_Litigation_Robust.rtf, replace stats(N r2 ar2, fmt(3)) ///
+    cells(b(star fmt(3)) se(par fmt(3))) starlevels(* 0.10 ** 0.05 *** 0.01) nogap
 restore
 
 ********************************************************************************
