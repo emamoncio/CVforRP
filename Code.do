@@ -4,8 +4,16 @@
 * Date: 19 May 2025
 ********************************************************************************
 
-* Load the design pair dataset
-use "DesignPair.dta", clear 
+
+cd "/Users/exyamc/Documents/GitHub/CVforRP/DesignPairs" // Replace the directory to where design pair chunks are stored
+
+* Load the design pair chunks 
+use "DesignPairs1.dta", clear
+
+foreach i of num 2/35 {
+append using  "DesignPairs`i'.dta", force
+}
+ 
 
 * Merge metadata for design1
 merge m:1 design1 using "DesignMetaInfo.dta"
