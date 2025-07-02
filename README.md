@@ -19,7 +19,7 @@ This repository contains the data and code pack for the paper _"Using Computer V
 ### 📊 STRUCTURED DATA 
 **Note**: The full dataset (.dta files) is available on Zenodo:https://doi.org/10.5281/zenodo.15720255)
 1. `DesignMetaInfo.dta`: Design-level application data with USPC class and subclass.
-2. `DesignPair.dta`: Design pair similarity data based on SSIM.
+2. `DesignPairs*.dta`: Design pair similarity chunks (partitioned from 1 to 35) based on SSIM (see `DesignPairs/`.
 3. `NearestNeighbor.dta`: Design-level average nearest neighbor measures (1-nn, 3-nn, 5-nn).
 4. `DSSD.dta`: Subclass-level data on Design Space Similarity Density.
 5. `SubclassOutcomeControls.dta`: Subclass-level litigation outcomes and control variables.
