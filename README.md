@@ -15,7 +15,7 @@ This repository contains the data and code pack for the paper _"Using Computer V
 - `Preprocessed/`: A sample of cleaned images of design rights included in USPC Subclass D14-1380AC (Mobile Phones).
 
 ### 📊 STRUCTURED DATA 
-**Note**: The full dataset (.dta files) is available on Zenodo:https://doi.org/10.5281/zenodo.15720255)
+
 1. `DesignMetaInfo.dta`: Design-level application data with USPC class and subclass.
 2. `DesignPairs*.dta`: Design pair similarity chunks (partitioned from 1 to 35) based on SSIM (see `DesignPairs/`).
 3. `NearestNeighbor.dta`: Design-level average nearest neighbor measures (1-nn, 3-nn, 5-nn).
