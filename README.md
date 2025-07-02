@@ -6,8 +6,6 @@ This repository contains the data and code pack for the paper _"Using Computer V
 
 ## 📁 Folder Contents
 
-### 📄 README
-- `README.txt`: Also includes a data dictionary and the raw data sources.
 
 ### 🧮 CODES
 1. `SSIM.py`: Python code to measure the structural similarity index (SSIM), based on Wang et al., 2004.
