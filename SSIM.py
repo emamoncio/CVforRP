@@ -7,7 +7,7 @@ from itertools import combinations
 from tqdm import tqdm
 
 # ---------- paths ----------
-TARGET_DIR   = "/Users/exyamc/Dropbox/RP/Revision/Documentation/Preprocessed"  # ← your images here
+TARGET_DIR   = "***/Preprocessed"  # ← your images here
 OUTPUT_CSV   = os.path.join(TARGET_DIR, "design_ssim_2.csv")
 
 # ---------- constants ----------
