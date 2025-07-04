@@ -83,7 +83,7 @@ This repository contains the data and code pack for the paper _"Using Computer V
 |--------------------------------|-------------|
 | `uspc_class`                   | Primary USPC classification |
 | `uspc_subclass`               | Secondary USPC classification |
-| `year`                         | Calendar year |
+| `year`                         | litigation or application year |
 | `subclass_litigation_count`    | Total designs litigated per subclass-year |
 | `subclass_no_unq_designs`      | Unique design rights per subclass-year |
 | `subclass_ave_firm_no_unq_des`| Avg. designs per firm in subclass-year |
